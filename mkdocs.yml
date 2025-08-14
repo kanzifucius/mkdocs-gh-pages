@@ -11,13 +11,8 @@ edit_uri: edit/main/docs/
 # Configuration
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.highlight
-    - search.share
+  custom_dir: overrides
+   
   palette:
     - scheme: default
       primary: indigo
