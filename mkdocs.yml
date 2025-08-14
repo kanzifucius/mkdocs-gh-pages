@@ -11,6 +11,7 @@ edit_uri: edit/main/docs/
 # Configuration
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
@@ -66,3 +67,5 @@ nav:
 extra:
   version:
     provider: mike
+    default: latest  # Default version alias
+    alias: true      # Show version alias beside version number
