@@ -1,11 +1,11 @@
 site_name: My Documentation
 site_description: Documentation site with version support
 site_author: Your Name
-site_url: https://yourusername.github.io/mkdocs-gh-pages/
+site_url: https://kanzifucius.github.io/mkdocs-gh-pages/
 
 # Repository
-repo_name: yourusername/mkdocs-gh-pages
-repo_url: https://github.com/yourusername/mkdocs-gh-pages
+repo_name: kanzifucius/mkdocs-gh-pages
+repo_url: https://github.com/kanzifucius/mkdocs-gh-pages
 edit_uri: edit/main/docs/
 
 # Configuration
