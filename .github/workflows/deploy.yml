@@ -13,10 +13,19 @@ on:
 env:
   PYTHON_VERSION: '3.11'
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
+    permissions:
+      contents: write  # Allow pushing to gh-pages branch
+      pages: write
+      id-token: write
     
     steps:
       - name: Checkout repository
